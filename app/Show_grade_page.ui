@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1384</width>
+    <height>770</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton {
+                background-color: #006769;
+                color: white;
+                font-size: 16px;
+                border: 3px solid #8CB9BD;
+                border-radius: 15px;
+                padding: 5px 15px;        }
+QPushButton:hover {
+                background-color: #8CB9BD;
+                border: 3px solid #006769;
+        }
+
+QPushButton:hover {
+    background-color: #8CB9BD;
+    border: 3px solid #006769;
+    color: black;
+}
+
+QLineEdit {
+    border-radius: 15px;
+    border: 3px solid #8CB9BD;
+    background-color: #fff ; 
+    height: 20px;
+    color: white;
+     font-size: 18px;
+}
+QLineEdit {
+          background-color: white;
+          color: black;
+          font-size: 16px;
+         border: 3px solid #006769;
+         border-radius: 15px;
+         padding: 5px 15px;
+         margin-right: 10px;
+        }
+
+QTableWidget{
+ background-color: #8CB9BD;
+ border:none;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>1391</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <column>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Lastname</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Math score</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>A+ score</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>English score</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Android score</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>python score</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Django score</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>SQL score</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Server score</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Linux score</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>40</y>
+      <width>331</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>40</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1384</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="alan.qrc"/>
+ </resources>
+ <connections/>
+</ui>
